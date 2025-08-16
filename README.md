@@ -1,4 +1,4 @@
-# pysunerg-calc
+# pysunergy-calc
 
 Geometry-based solar potential, irradiance, and solar PV energy calculations in Python—**just math, physics, and data classes; no external APIs needed**.
 
