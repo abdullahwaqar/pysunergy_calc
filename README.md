@@ -124,4 +124,19 @@ pytest
 
 ---
 
+## See Also
+
+### Node.js / TypeScript Version
+
+Looking for a similar library for Node.js or TypeScript?
+
+Check out the original [sunergy-calc](https://www.npmjs.com/package/sunergy-calc) package for JavaScript/TypeScript with the same solar geometry and PV calculation logic.
+
+- **NPM package:** [sunergy-calc](https://www.npmjs.com/package/sunergy-calc)
+- **Source repo:** [https://github.com/abdullahwaqar/sunergy-calc](https://github.com/abdullahwaqar/sunergy-calc)
+
+Use that version if you want to run solar calculations in web apps, serverless functions, or Node/TypeScript projects.
+
+---
+
 _`pysunergy-calc` is not affiliated with nor endorsed by pveducation.org, palmetto.com, Sunbase, or EcoFlow. Reference links are for scientific documentation and transparency only._
