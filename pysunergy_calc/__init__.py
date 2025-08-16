@@ -40,17 +40,21 @@ from dataclasses import dataclass
 import math
 from datetime import datetime, timezone
 
-# All angles are in degrees
-
 
 @dataclass
 class SolarPosition:
+    """
+    All angles are in degrees
+    """
+
     declination: float
     hour_angle: float
     altitude: float
     azimuth: float
     zenith: float
-    irradiance: float  # W/m² (solar on horizontal)
+
+    # W/m² (solar on horizontal)
+    irradiance: float
 
 
 def to_radians(deg: float) -> float:
@@ -123,12 +127,14 @@ def compute_solar_potential(
 
     # Nearest standard meridian
     lstm = 15 * round(lon / 15)
+
     # Approx eq of time
-    #
     eq_time = 7.5 * math.sin(to_radians((360 / 365) * (n - 81)))
+
     time_offset = eq_time + 4 * (lon - lstm)
     solar_time = hours + time_offset / 60
     hour_angle = 15 * (solar_time - 12)
+
     # Angles in radians
     lat_rad = to_radians(lat)
     decl_rad = to_radians(decl)
