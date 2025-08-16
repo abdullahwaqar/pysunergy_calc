@@ -2,7 +2,8 @@
 
 Geometry-based solar potential, irradiance, and solar PV energy calculations in Python—**just math, physics, and data classes; no external APIs needed**.
 
-[![PyPI version](https://img.shields.io/p://pypi.org/project/pysun](https://img.shields.io/badge/license-MIT-green.svg
+[![PyPI version](https://img.shields.io/pypi/v/pysunergy-calc)](https://pypi.org/project/pysunergy-calc/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 - **Accurate solar geometry:** Compute sun position (declination, hour angle, altitude, azimuth, zenith) for any latitude, longitude, and datetime.
 - **Instantaneous PV power calculation:** Use panel specs and solar irradiance to compute real-time output.
